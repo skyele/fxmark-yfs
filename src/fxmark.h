@@ -51,5 +51,6 @@ extern struct bench_operations u_file_cr_ops;
 extern struct bench_operations u_file_rm_ops;
 extern struct bench_operations u_sh_file_rm_ops;
 extern struct bench_operations u_file_tr_ops;
+extern struct bench_operations u_yfs_ops;
 
 #endif /* __FX_H__ */

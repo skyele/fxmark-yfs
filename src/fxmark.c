@@ -87,6 +87,9 @@ static struct bench_desc bench_table[] = {
 	{"DWTL",
 	 "each process truncates its private file at the test root directory",
 	 &u_file_tr_ops},
+	{"YFS",
+	 "each process write and delete 1000 private file at the test root directory",
+	 &u_yfs_ops},
 	{NULL, NULL, NULL},
 };
 
